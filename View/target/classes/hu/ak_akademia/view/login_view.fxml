@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="rootPane" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.ak_akademia.view.LoginController">
+    <children>
+        <Button id="loginButton" fx:id="loginButton" layoutX="254.0" layoutY="248.0" mnemonicParsing="false"
+                onAction="#handleLoginButton" text="Belépés"/>
+        <Label id="forgotPasswordLabel" fx:id="forgotPasswordLabel" layoutX="228.0" layoutY="218.0" prefHeight="17.0"
+               prefWidth="124.0" text="Elfelejtette a jelszavát?"/>
+        <TextField id="userNameTextField" fx:id="userNameTextField" layoutX="216.0" layoutY="128.0"
+                   promptText="Felhaszálo név"/>
+        <TextField id="passwordTextField" fx:id="passwordTextField" layoutX="216.0" layoutY="171.0"
+                   promptText="Jelszó"/>
+        <Label layoutX="558.0" layoutY="369.0" text="sugó"/>
+        <Label alignment="CENTER" layoutX="32.0" layoutY="32.0" prefHeight="55.0" prefWidth="537.0"
+               text="Egyszerűsített Munkaszerződés Kezelő">
+            <font>
+                <Font size="30.0"/>
+            </font>
+        </Label>
+        <Label id="errorLabel" fx:id="errorLabel" layoutX="216.0" layoutY="80.0" prefHeight="43.0" prefWidth="149.0"
+               text="A felhasználo név vagy a jelszó nem megfelelő." textFill="#eb0b0b" visible="false"
+               wrapText="true"/>
+    </children>
+</AnchorPane>

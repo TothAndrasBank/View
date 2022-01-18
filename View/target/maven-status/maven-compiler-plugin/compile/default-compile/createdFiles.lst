@@ -1,0 +1,5 @@
+hu\ak_akademia\view\LoginController.class
+module-info.class
+hu\ak_akademia\view\LandingController.class
+hu\ak_akademia\view\exeption\FXMLLoadException.class
+hu\ak_akademia\view\Application.class
